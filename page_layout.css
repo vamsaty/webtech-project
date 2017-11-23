@@ -1,0 +1,301 @@
+#anim{
+                    display: flex;
+    position: sticky;
+    z-index: 100000;
+                    box-shadow: 0px 2px 0px black;
+                    background: rgba(0,0,0,0.8);
+                    height: auto;
+                    text-align: center;
+                    cursor: pointer;
+                    font: 2.5vw Starway;
+                    column-count: 3;
+                    
+                }
+            #anim > a{
+                flex: 1;
+                color: crimson;
+                font-size: 2vw;
+                height:2.7vw;
+                transition:0.2s;
+                padding: 0.1vw;
+                margin:auto;
+            }
+        #anim a{
+            color:white;
+            text-decoration: none
+        }
+#anim div{
+    margin-top: 0px;
+}
+            #anim a:hover {
+                background-color: rgba(200,200,200,0.4);
+                box-shadow: 0px -2px 0px black;
+                flex:1;
+            }
+    
+            #anim a:active{
+                background: rgba(0,0,0,0.2);    
+            }
+
+
+#main{
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: color-burn;
+    background-position: 1% 90%;
+    padding: 6vw;
+    box-shadow: 0vw 0vw 10vw black inset;
+}
+#firstdiv{
+    box-shadow: 0vw 0vw 10vw black;
+    width:100%;
+    padding: 1vw;
+    display: flex;
+}
+img{
+    box-shadow: 3px 2px 0px black;
+}
+#game_details{    
+    height: auto;
+    width: 100vw;    
+    float: left;
+}
+#contents{
+    box-shadow: 0vw 0vw 10vw black inset;
+    display: flex;
+    margin-top:2vw;
+    flex-direction: column;
+    float: left;
+    height: auto;
+    text-align: center;
+    width: 60%;
+}
+
+#contents h2{
+    font:4vw monospace;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    background: rgba(0,0,0,0.9);
+}
+#contents h2:hover{
+    color: white;
+    text-shadow: none;
+    
+}
+
+#contents>p{
+    background: rgba(255,255,255,1);
+    padding:2vw;
+    font: 1vw cursive;
+    word-spacing: 0.5vw;
+    line-height: 1.5vw;
+    
+    word-wrap: break-word;
+    display: inline;
+    width: 100%;
+    float: left;
+    margin:1vw;
+    transition: 0.4s;
+}
+#contents> p:hover{
+    background: rgba(255,255,255,1);
+    
+}
+
+
+.pics{
+    width:30%;
+    height:29vh;
+    background-position: 50% 00%;
+    background-size: cover;
+    margin-left: 2vw;
+    padding: 1vw;
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+
+.pics >div{
+    
+    width: 40%;
+    margin: 0.5vw;
+    margin-left: 2vw;
+    float: left;
+    transition: 2s;
+}
+
+.pics>div>img{
+    width:100%;
+    padding:1vw;
+    transition: 1s;
+    box-shadow: 0vw 0vw 12vw white;
+
+}
+.pics>div>img:hover{
+    cursor: pointer;
+    box-shadow: 0vw 0vw 0vw dodgerblue;
+}
+.pics>div>img:active{
+    box-shadow: 0vw 0vw 1vw white;
+}
+
+
+.game_pic{
+    width: 60%;   
+    float: left;
+    transition: 0.4s;
+    display: inline;
+}
+.game_pic:hover{
+    box-shadow: 0vw 0vw 0vw white;
+}
+
+#review_main{
+    float: right;
+    width:30%;
+    margin-top: 15vw;
+    height:70vh;
+    color: white;
+    `box-shadow: 0vw 0vw 2pvw red;
+}
+
+table{
+    background: transparent;
+    color: white;
+    width: 100%;
+    font:1vw monospace;
+}
+td:first-child{
+    color: black;
+    font:1vw cursive;
+}
+td{
+    padding:1vw;
+    width: auto;
+    text-align: center;
+    background: rgba(120,120,120,1);
+    color: white;
+}
+#facts{
+ display: block;
+    left:4px;
+    width: 98%;
+    height: 20%;
+    
+}
+#content_reviews{
+    position:relative;
+    left:4px;
+    width: 98%;
+    height: 20%;
+}
+
+
+#content_reviews > table td{
+    background: dodgerblue;
+}
+
+.facts tr{
+    background: red;
+}
+
+
+#content_reviews td:hover{
+    background: white;
+    color:black;
+    cursor: pointer;
+}
+
+
+.shop_this{
+    
+    display: flex;
+}
+
+.shop_this>div{
+    flex: 1;
+    margin: 10px;
+    box-shadow: 0px 0px 10px white inset;
+    text-align: center; 
+}
+
+.shop_this>div:hover{
+    flex: 1;
+    margin: 10px;
+    box-shadow: 0px 0px 10px black inset;
+    text-align: center; 
+}
+
+
+.shop_pic{
+    width: 90%;
+    margin:10px;
+    height:16vw;
+}
+.shop_this a{
+    text-decoration: none;
+    font: 20px tahoma;
+    color: crimson;
+}
+.shop_this span{
+    position: relative;
+    bottom: 10px;
+    margin:-10px;
+    color: green;
+    font: 15px monospace;
+}
+.shop_this input[type="submit"]{
+    color: black;
+    border:none;
+    font: 20px calibri;
+    cursor: pointer;
+    padding: 10px;
+    width:50%;
+    background-color: dodgerblue;
+    box-shadow: 2px 2px 2px black;
+    
+}
+.shop_this input[type="submit"]:hover{
+    color: white;
+    border:none;
+    font: 20px calibri;
+    cursor: pointer;
+    padding: 10px;
+    width:50%;
+    background-color: crimson;
+    box-shadow: 2px 2px 2px black;
+    
+}
+.shop_this input[type="submit"]:active{
+    color: black;
+    border:none;
+    font: 20px calibri;
+    cursor: pointer;
+    padding: 10px;
+    width:50%;
+    background-color: white;
+    box-shadow: 2px 2px 0px black;
+    
+}
+
+#secdiv{
+    box-shadow: 0vw 0vw 10vw pink;
+    width:90%;
+    height: auto;
+    padding: 1vw;
+    display: block;
+}
+#secdiv>div>h1{
+    text-align: center;
+    color: white;
+    font:30px tahoma;
+    background-color: black;
+    padding:10px;
+}
+video{
+    display: block;
+    width: 80%;
+    border: 1px solid transparent;
+    cursor: pointer;
+    height: auto;
+}

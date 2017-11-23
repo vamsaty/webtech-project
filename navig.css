@@ -1,0 +1,86 @@
+body{background-color: grey;}
+nav{
+/*    position: fixed;
+    display: block;*/
+    font-family: Tahoma;
+    
+    transition: 0.2s;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px 3px 0px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+    cursor: pointer;
+}
+
+li :hover{
+    box-shadow:0px 3px 0px springgreen;
+}
+li a:active{
+   box-shadow: 0px 4px black;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition:0.3s;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+ul li ul{
+    display: none;
+    transition:0.3s;
+}
+
+ ul li:hover ul{
+display: contents;
+
+}
+
+#img_slider{
+    display: inline;
+    height: auto;
+    padding: 10px;
+    transition:0.3s;
+    text-align: center;
+}
+
+#img_slider img{
+    margin-top: 5px;
+    width: 450px;
+    cursor: pointer;
+    display: inline;
+    position: relative;
+    transition:0.3s;
+}
+
+#img_slider img:hover{
+    box-shadow: 7px 7px 0px black;
+}
+
+#img_slider img:active{
+    box-shadow: 7px 7px 0px black;
+}
+
+#active{
+    box-shadow: 0px 3px 0px dodgerblue;
+}
+#active:hover a{
+    box-shadow: 0px 3px 0px springgreen;
+}
+

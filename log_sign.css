@@ -1,0 +1,347 @@
+body{
+    background-image: url(image/wowc1.jpg);
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0px;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+#choose{
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+}
+
+#log{
+    width:25%;
+    box-shadow: 0px 4px 0px purple;
+    height: 30vw;
+    margin: auto;
+    
+    cursor: pointer;
+    text-align: center;
+    background: rgba(0,0,0,0.8);
+    transition: 0.2s;
+}
+#sign{
+    
+    width: 0%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 1vw;
+  
+    background-image: url(image/nvidia.png);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    transition: 0.5s;
+}
+#sign section{
+    width: 200px;
+    background: rgba(120,120,110,0.8);
+    margin:auto;
+    text-align: center;
+    font: 20px calibri;
+    padding: 1.1vw;
+    margin: 0.3vw;
+display: inline-block;
+    float: left;
+    transition:0.2s;
+}
+#sign section:hover{
+    background-color: transparent;
+}
+
+#sign section:hover legend{
+    color:white;
+}
+
+#fie_cont{
+    
+    text-align: center;
+    display: block;
+    width: auto;
+}
+
+section legend{
+    font: 1.4vw calibri;
+}
+
+#log{
+    padding-bottom:1vw;
+    text-align: center;
+}
+#choose h1{
+    color:white;
+    font:40px Starway;
+    margin-top:0px;
+    transition:0.2s;
+}
+
+#sign h1{
+    font:4vw Starway;
+    position: relative;
+    top:-3.2vw;
+    color:lawngreen;
+}
+#sign:hover,#log:hover{
+    box-shadow: 0px 4px 0px crimson;    
+}
+#log:hover h1{
+    color: crimson;
+    
+}
+#log:active{
+    background: rgba(0,0,0,1);
+}
+
+#sign:active h1,#log:active h1{
+    color: lawngreen;    
+}
+
+#rhs{
+    padding:0px 0px 0px 0px;  
+    width: auto;
+    font: 1.5vw calibri;
+    display: block;
+    position: relative;
+    opacity: 1;
+    text-align: center;
+    transition: 0.2s;
+}
+
+
+#rhs:hover,#rhs:focus{
+    opacity: 1;
+}
+hr{
+    color: white;
+}
+
+#NAM{
+    color: white;
+    font:1.5vw calibri;
+    
+}
+#NAM:hover{
+    color: red;
+    
+}
+
+#rhs fieldset{
+    margin: auto;
+    border:none;
+    box-shadow: 0px 0px px crimson;
+    
+    color:white;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 0vw;
+}
+#rhs label{
+    margin-top: 1vw;
+}
+
+h1{font: 4vw Starway;}
+
+fieldset >div{
+    display: block;
+    padding:0px 10px 0px 10px;
+    margin-top:20px;
+    transition: 0.2s;
+    border-radius: 10px;
+    
+}
+
+fieldset >div:hover{
+        
+}
+
+#rhs input[type="text"],#rhs input[type="password"]{
+    padding: 6px;
+    font: 15px calibri;
+    width: 80%;
+    border-radius: 3px;
+    
+}
+
+#rhs input[type="text"]:focus ,#rhs input[type="password"]:focus{
+    padding:10px;
+    border: none;
+    box-shadow: 1px 2px 0px green;
+    /*animation:border_ch 10s infinite;*/
+    
+}
+
+@keyframes border_ch{
+    0%{    box-shadow: 4px 4px 1px blue;}
+    50%{    box-shadow: 4px 4px 1px white;}
+    100%{    box-shadow: 4px 4px 1px blue;}
+    
+}
+
+#login_butt{
+    padding: 5px 5px 5px 5px;
+    font: 15px calibri;
+    margin-top:20px;
+    margin-bottom: 10px;
+    border:none;
+    background: transparent;
+    cursor:pointer;
+    border-radius:3px;
+    border:1px solid white;
+    color: white;
+    transition: 0.1s;   
+    
+}
+
+#login_butt:hover{
+    color:springgreen;
+}
+
+#login_butt:active{
+    background: springgreen;
+    color:black;
+}
+
+
+#login_butt1{
+    padding: 10px 10px 10px 10px;
+    font: 15px calibri;
+    margin-top:30px;
+    border:none;
+    background: crimson;
+    cursor:pointer;
+    border-radius:3px;
+    border:1px solid white;
+    color: white;
+    transition: 0.1s;   
+}
+
+#login_butt1:hover{
+    background: mediumspringgreen;
+    color: black;
+}
+
+#login_butt1:active{
+    background: grey;
+    color:red;
+}
+
+
+.up_down_login{
+    color:red;
+}
+
+
+legend{
+    display: block;
+    margin:10px;
+    font: 20px calibri;
+    text-align: center;
+    transition:0.5s;
+    cursor: pointer;    
+    color:white;
+    letter-spacing: 1px;
+}
+
+legend:hover{
+    color:white;
+}
+
+a{
+    text-shadow: 0px 0px 0px black;
+    text-decoration: none;
+    color: transparent;
+}
+
+a:hover{
+    text-shadow: 0px 0px 0px crimson;
+    color: transparent;
+}
+
+
+#close_sign{
+    position:absolute;
+    right:3vw;
+    top:2vw;
+    color:white;
+    font-size:3vw;
+    
+}
+#close_sign:hover{
+    color: crimson;
+}
+#close_sign:active{
+    color:blue;
+}
+
+
+#fie_sign{
+    border:none;
+    box-shadow: 0px 0px px crimson;
+    display: none;
+    width:0%;
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 100px;   
+}
+
+.ins{
+    display: block;
+}
+.ins label{
+    display: block;
+}
+
+.ins legend{
+
+}
+.ins input{
+
+}
+
+
+
+
+#site_content{
+    display: inline-block;
+    width:50%;
+    position: relative;
+    box-shadow: 0px 4px 0px purple;
+    padding:10px;
+    top:-0px;
+    
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    margin-left: 90px;
+    background: rgba(0,0,0,0.8);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

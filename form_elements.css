@@ -1,0 +1,227 @@
+
+#login{
+    width:97.3%;
+    height: 800px;
+    padding: 10px;
+    display: none;
+    margin: auto;
+    background: crimson;
+    z-index: 1000;
+    position: absolute;
+    top:100px;
+    box-shadow: 0px 0px 1000px black;
+}
+
+
+
+#signup{
+    margin: auto;
+    width:400px;
+    padding: 10px;
+    background:linear-gradient(45deg,springgreen,grey);
+    box-shadow: 0px 0px 10px black;
+}
+
+#close_button{
+    padding: 3px;
+    transition:0.2s;
+    border:2px solid transparent;
+}
+#close_button:hover{
+    box-shadow:0px 4px 0px red;
+    border:2px solid red;
+}
+#close_button:active{
+    background: transparent;
+    border:2px solid red;
+   box-shadow: 0px 4px 0px red;
+}
+
+
+fieldset{
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+#atmail{
+    position: relative;
+    right: 95px;
+    color: darkgrey;
+}
+span{color:darkgray; font: 12px Tahoma;}
+
+#firstname-placeholder,#lastname-placeholder{
+    position: relative;
+    top:-24px;  
+    left:120px;
+}
+
+fieldset label{
+    padding:10px;   
+}
+
+/*
+fieldset strong{
+    text-align: center;
+    font:20px Tahoma;width: 100%;
+    padding:10px;
+}
+
+fieldset strong.up{
+    text-align: none;
+    font:14px sans-serif;
+    padding: 0px;s
+    color:black;
+    text-decoration: none;
+        margin:  0 0 0.5em;
+}
+*/
+strong{
+    font:14px Tahoma;
+}
+
+#name-form-element{
+    padding:10px;
+
+    background-color: dee;
+}
+
+strong.boss{
+    font:20px Starway;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#name-form-element input{
+    padding: 5px;
+    border:none;
+    border-radius: 4px 4px 4px 4px;
+}
+#name-form-element input:hover{
+    box-shadow: 0px 1px 1px black;
+}
+#name-form-element input:focus{
+    box-shadow: 0px -1px 1px black ;
+}
+
+
+
+
+
+
+label{display: inline-block;}
+label.firstname,label.lastname{
+    width:150px;
+    margin-right:10px;
+}
+
+
+
+#email-form-element{
+    padding:10px;
+    background-color: crimson;
+}
+
+#email-form-element input{
+    padding: 5px;
+    width:250px;
+    border:none;
+    border-radius: 4px 4px 4px 4px;
+}
+#email-form-element input:hover{
+    box-shadow: 0px 1px 1px black;
+}
+#email-form-element input:focus{
+    box-shadow: 0px -1px 1px black ;
+}
+
+
+
+
+
+
+#pass-form-element,#confirm-pass-form-element,#gen-form-element,#nationality{
+ padding:10px;
+    background: crimson;
+}
+
+#pass-form-element input{
+    padding: 5px;
+    border:none;
+    width: 250px;
+    border-radius: 4px 4px 4px 4px;
+}
+#pass-form-element input:hover{
+    box-shadow: 0px 1px 1px black;
+}
+#pass-form-element input:focus{
+    box-shadow: 0px -1px 1px black ;
+}
+
+#confirm-pass-form-element input{
+    padding: 5px;
+    border:none;
+    width: 250px;
+    border-radius: 4px 4px 4px 4px;
+}
+#confirm-pass-form-element input:hover{
+    box-shadow: 0px 1px 1px black;
+}
+#confirm-pass-form-element input:focus{
+    box-shadow: 0px -1px 1px black ;
+}
+
+
+
+#gen-form-element{
+    background-color: crimson;
+}
+
+#nationality{
+    background-color: crimson;
+}
+
+
+
+select{
+    background-color:lightgrey;
+    width:220px;
+    padding: 5px;
+    border:none;
+    transition: 0.2s;
+    font: 14px Tahoma;
+    cursor: pointer;
+    border-radius:3px 3px 3px 3px;
+}
+
+
+select:hover{
+    background: white;
+    padding: 10px;
+}
+
+
+
+#subs{
+    cursor: pointer;
+    background-color: #333;
+    transition: 0.1s;
+    padding:10px;
+    color:white;
+    box-shadow: 1px 1px 0px grey;
+    font-family:Tahoma;
+    border: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#subs:hover {
+    background-color: #111;
+    color:white;
+    box-shadow: 0px 3px 0px springgreen;
+}
+
+
+#subs:active{
+    box-shadow: 0px 3px 0px dodgerblue;
+}

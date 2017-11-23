@@ -1,0 +1,47 @@
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.column{
+    float:left;
+}
+.modal{
+    position: fixed;
+    top:0;
+    left:0;
+    display: none;
+    width:90vh;
+    height:40vh;
+    background: black;
+}
+
+.close{
+    font:25px solid Tahoma;
+    color: white;
+    transition: 0.2s;
+}
+
+.close:hover{
+    color: red;
+}
+
+.modal_content{
+  position: relative;
+  background-color: #fefefe;
+ margin:auto;
+  padding: 0;
+  width: 90%;
+  max-width: 900px;    
+}
+
+
+.mySlides{
+    display: none;
+}

@@ -1,0 +1,171 @@
+
+
+.active {
+    box-shadow: 0px -3px  0px crimson;
+    border:1px solid crimson;
+    background: crimson;
+}
+
+
+#van1{
+    color:white;
+    background: black;
+    display: flex;
+    box-shadow: 0px 4px 110px black;
+    
+    padding:0px;
+}
+
+#van1>ul>li{
+    width: 130px;
+    
+}
+
+.van a{
+    color:red;
+    font-family:sans-serif;
+}
+
+.van a:hover{
+    color: mediumpurple;
+}
+
+a> img{
+    list-style: none;
+    width: 20px;
+    height: 20px;
+}
+
+.van li{
+    list-style: none;
+    text-align:center;
+    height:20px;
+    width:30px;
+    padding: 10px;
+    border:1px solid white;
+    transition:0.11s;
+}
+
+.van >ul>li{   
+    border:1px solid transparent;
+    cursor:pointer;
+    box-shadow: 0px -3px 0px dodgerblue;
+}
+
+
+
+
+.van >ul >li:hover{
+    position: relative;
+    left: 0px;
+    box-shadow: 0px 3px 0px white;
+}
+
+
+li:hover a{
+    color: darkblue;
+}
+
+
+.nul1{
+    
+    padding: 0px;
+    margin: 0;
+}
+
+.nul2,.nul3,.nul4{
+    padding: 0px;width:4px;
+    margin: 0;
+    position: relative;
+    display: none;
+}
+.root:after{
+    float: right;
+    font-weight: 800;
+    position: relative;
+    top:5px;
+    right: 10px;
+    font-family: cursive;
+    font-size: 10px;
+}
+
+
+ul.nul1 > li{   
+    border-radius: 0px 0px 0px 0px;
+    float:left;
+    width: 200px;
+}
+
+ul>li{
+    float:left;
+}
+ul>li:hover{
+      background-color: rgb(250,15,80);
+}
+
+/*
+.nul1>li:hover,.nul2>li:hover,.nul3>li:hover,.nul4>li:hover{
+    /*box-shadow: 0px 3px 0px dodgerblue;
+    background-color: cornflowerblue;
+}
+*/
+
+.nul1 li:hover .nul2{
+    display: block;
+    position: relative;
+    left:-10px;
+    top: 5px;
+}
+
+li:hover >ul{
+    display: flex;
+    position: relative;
+    left:100%;
+    width:210px;
+    height: 100px;
+    padding:10px;
+    border-radius:0px 0px 0px 0px;
+    animation: ddd 0.3s;
+    background-color:#998;
+    top: -100%;
+}
+
+@keyframes ddd{
+    from{transform:scale(0); }
+    to{transform:scale(1);}
+}
+
+
+#van2{
+    float:right;
+    position: absolute;
+    right: 0px;
+}
+#van2 ul li{
+}
+
+#van2 ul li:hover{
+    background-color:royalblue;
+    color:white;
+}
+#van2 a{
+    color:black;
+}
+
+#van2 a:hover{
+    color:white;
+}
+
+
+#getDown_button{
+    position: absolute;
+    top:50px;
+    perspective: 1000px;
+    left:0px;
+    
+}
+
+#getDown_button:hover{
+    transform: rotateX(10deg);
+}
+

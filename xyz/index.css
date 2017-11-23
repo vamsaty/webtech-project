@@ -1,0 +1,77 @@
+body{
+    background-image: url(image/hill.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h1{
+    font: 30px Starway;
+    color: white;
+    transition:0.4s;
+    
+}
+
+#papa{
+ font:20px monospace;
+    color:transparent;
+    text-shadow: 0px 0px 0px white;
+}
+#close_ka{
+    position: absolute;
+    left:48.3%;
+    vertical-align: middle;
+    top:45%;
+    margin:auto;
+    color:hotpink;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    border-radius: 50%;
+    border: 1px solid white;
+    background: black;
+    animation: glow 4s infinite linear;
+    -webkit-animation: glow 4s infinite linear;
+}
+
+
+#close_ka:hover{
+    color:white;
+    animation-play-state: paused;
+}
+
+@keyframes spin{
+    0%{transform: rotate3d(0,10,0,0deg);}
+    50%{transform: rotate3d(0,30,0,0deg);}
+    100%{transform: rotate3d(10,50,0,0deg);}
+    
+    
+}
+
+@keyframes glow{
+    0%{box-shadow: 0px 0px 12px white;}
+    15%{box-shadow:0px 0px 55px white;}
+    50%{box-shadow:0px 0px 15px white;}
+    90%{box-shadow:0px 0px 1px black;}
+    100%{box-shadow:0px 0px 10px white;}
+    
+}
+
+
+#close_ka:hover{
+    transform: rotate(180deg);
+    box-shadow: 0px 0px 100px black;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
